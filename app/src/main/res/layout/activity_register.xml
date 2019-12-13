@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/union"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECY"
+        android:textColor="@color/color4"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:textSize="18sp"
+        />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="200dp"
+    android:textSize="30sp"
+    android:textColor="@color/lytblack"
+    android:text="SIGNUP"
+    android:textStyle="bold"
+    />
+
+
+
+
+
+        <EditText
+            android:id="@+id/edemail"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_centerHorizontal="true"
+            android:hint="Email"
+            android:textSize="18sp"
+            android:layout_marginTop="340dp"
+            android:textColor="@color/color1"
+            android:textColorHint="@color/color1"
+            />
+
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/edpassword"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_centerHorizontal="true"
+            android:hint="Password"
+            android:textSize="18sp"
+            android:layout_marginTop="410dp"
+            android:textColor="@color/color1"
+            android:textColorHint="@color/color1"
+            />
+
+
+
+ <RelativeLayout
+     android:id="@+id/signupbutton"
+     android:layout_width="300dp"
+     android:layout_height="60dp"
+     android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true"
+     android:layout_marginBottom="150dp"
+     android:background="@drawable/splashsignup"
+     >
+
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:textColor="@color/color1"
+         android:layout_centerInParent="true"
+         android:text="SignUp"
+         android:textSize="18sp"
+         />
+
+ </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyAdapFireStore</string>
+    <string name="nonetwork">No network</string>
+</resources>
